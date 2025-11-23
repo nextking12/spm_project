@@ -27,14 +27,23 @@ public class Project {
     private String name;
     
     @Column(name = "description")
+    @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "Description can only contain letters, numbers, and spaces")
     private String description;
     
     @Column(name = "status")
+    @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "Status can only contain letters, numbers, and spaces")
     private String status;
     
     @Column(name = "start_date")
+    @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "Start date can only contain letters, numbers, and spaces")
     private String startDate;
     
-   
+   @Column(name = "nea_date")
+   @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "NEA date can only contain letters, numbers, and spaces")
+   private String neaDate;
+
+   @Column(name = "pfho_date")
+   @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "PFHO date can only contain letters, numbers, and spaces")
+   private String pfhoDate;
 
 }
