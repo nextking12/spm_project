@@ -45,5 +45,10 @@ public class Project {
    @Column(name = "pfho_date")
    @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "PFHO date can only contain letters, numbers, and spaces")
    private String pfhoDate;
+   
+   @Column(name = "finances")
+   @Pattern(regexp = "^[a-zA-Z0-9_ ]+$", message = "Finance date can only contain letters, numbers, and spaces")
+   private int finances;
+   
 
 }
