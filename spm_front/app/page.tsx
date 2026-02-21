@@ -26,10 +26,10 @@ export default function DashboardPage() {
           </div>
           <div>
             <h1 className="text-lg font-semibold leading-none tracking-tight text-balance">
-              Project Tracker
+              SPM Project Tracker
             </h1>
             <p className="mt-0.5 text-sm text-muted-foreground">
-              Manage and monitor project milestones
+              Manage and monitor projects
             </p>
           </div>
         </div>
